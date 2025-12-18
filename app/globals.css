@@ -33,8 +33,7 @@
 
 
 @media (max-width: 768px) {
-  .banner {
-   
+  .banner {   
     min-height: 600px; 
     background-attachment: scroll; 
   }

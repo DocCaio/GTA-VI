@@ -1,4 +1,5 @@
 import Banner from "@/app/components/Banner";
+import GameDescription from "@/app/components/GameDescription";
 import NavBar from "@/app/components/NavBar";
 
 
@@ -7,6 +8,7 @@ const HomePage = () => {
     <div>
         <NavBar/>
         <Banner/>
+        <GameDescription/>
 
     </div>
   )
