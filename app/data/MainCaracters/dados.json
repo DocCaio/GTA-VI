@@ -1,0 +1,21 @@
+
+
+{
+  "personagens": [
+    {
+      "id": 1,
+      "nome": "Jason Duval",
+      "desejo": "Jason quer uma vida fácil, mas as coisas só ficam mais difíceis.",
+      "sobre": "Jason cresceu rodeado por vigaristas e criminosos. Depois de um período no Exército tentando se livrar de seus problemas da adolescência, ele se encontrou em Keys fazendo o que sabia fazer de melhor: trabalhando para traficantes locais. Talvez seja hora de tentar algo novo.",
+      "image": "/images/MainCharacters/jason.jpg"
+    },
+    
+      {
+      "id": 2,
+      "nome": "Lúcia Caminos",
+      "desejo": "O pai de Lúcia a ensinou a lutar assim que ela conseguiu andar. A vida tem batido nela desde então.",
+      "sobre": "Lutar pela família a levou para a Penitenciária de Leonida. Apenas a sorte a tirou de lá. Lúcia aprendeu a lição — daqui pra frente, só movimentos inteligentes.",
+      "image": "/images/MainCharacters/lucy.jpg"
+    }
+  ]
+}
