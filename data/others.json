@@ -1,0 +1,46 @@
+{
+  "personagens": [
+    {
+      "id": 1,
+      "nome": "CAL HAMPTON",
+      "desejo": "E se tudo na internet fosse verdade?.",
+      "sobre": "Cal, amigo de Jason e também associado de Brian, sente-se mais seguro em casa, bisbilhotando as comunicações da Guarda Costeira, tomando algumas cervejas e com algumas abas privadas do navegador abertas.",
+      "image": "/OthersCaracters/CAL.png"
+    },
+    {
+      "id": 2,
+      "nome": "Boobie Ike",
+      "desejo": "É tudo sobre coração — o Valete de Copas.",
+      "sobre": "Boobie é uma lenda local de Vice City — e age como tal. Um dos poucos que conseguiu transformar seu tempo nas ruas em um império legítimo que inclui imóveis, um clube de strip e um estúdio de gravação. Boobie está sempre sorrindo… até a hora de falar de negócios.",
+      "image": "/OthersCaracters/Boobie.png"
+    },
+    {
+      "id": 3,
+      "nome": "Dre'QuanPriest",
+      "desejo": "O pai de Lúcia a ensinou a lutar assim que ela conseguiu andar. A vida tem batido nela desde então.",
+      "sobre": "Lutar pela família a levou para a Penitenciária de Leonida. Apenas a sorte a tirou de lá. Lúcia aprendeu a lição — daqui pra frente, só movimentos inteligentes.",
+      "image": "/OthersCaracters/Dre.png"
+    },
+    {
+      "id": 4,
+      "nome": "REAL DIMEZ",
+      "desejo": "Vídeos virais. Refrões virais.",
+      "sobre": "Bae-Luxe e Roxy, também conhecidas como Real Dimez, são amigas desde o ensino médio — garotas espertas que transformaram o tempo que passavam pressionando traficantes locais em dinheiro vivo, por meio de músicas de rap ousadas e uma presença implacável nas redes sociais.",
+      "image": "/OthersCaracters/REAL-DIMEZ.png"
+    },
+    {
+      "id": 5,
+      "nome": "RAUL BAUTISTA",
+      "desejo": "Experiência conta.",
+      "sobre": "Confiança, charme e astúcia — Raul é um assaltante de banco experiente, sempre à procura de talentos dispostos a assumir os riscos que trazem as maiores recompensas.",
+      "image": "/OthersCaracters/RAUL.png"
+    },
+    {
+      "id": 6,
+      "nome": "BRIAN HEDER",
+      "desejo": "Nada melhor que um Mudslide ao pôr do sol.",
+      "sobre": "Brian é um clássico transportador de drogas da era de ouro do contrabando nos Keys. Ainda movimentando mercadorias pelo seu estaleiro junto com sua terceira esposa, Lori, Brian já está há tempo suficiente nesse meio para deixar que outros façam o trabalho sujo por ele.",
+      "image": "/OthersCaracters/BRIAN.png"
+    }
+  ]
+}
