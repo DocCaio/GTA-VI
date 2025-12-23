@@ -1,9 +1,11 @@
 "use client";
 
+
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Menu, X } from "lucide-react";
+
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,8 +18,10 @@ const NavBar = () => {
 
 
       <div className="flex items-center gap-1">
-        <Image src="/images/NavBar/Letra1.png" alt="Logo letra 1" width={35} height={30} />
-        <Image src="/images/NavBar/Letra2.png" alt="Logo letra 2" width={20} height={10} />
+        <Link className="flex" href={"/"}>
+          <Image src="/images/NavBar/Letra1.png" alt="Logo letra 1" width={45} height={30} />
+          <Image src="/images/NavBar/Letra2.png" alt="Logo letra 2" width={18} height={10} />
+        </Link>
       </div>
 
 

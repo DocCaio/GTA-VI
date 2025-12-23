@@ -1,53 +1,52 @@
 import Image from "next/image";
-import Logo from "../../assets/Announcements/logo.png";
-import Ps from "../../assets/Announcements/ps.png";
-import Xbox from "../../assets/Announcements/xbox.png";
+import Rock from "../../assets/Announcements/rockStar.png";
 
-const Announcements = () => {
+const Announcement = () => {
   return (
-    <div className="flex flex-col items-center p-4 md:p-8 bg-gray-50
-    bg-[linear-gradient(135deg,_#0a0f2e_0%,_rgba(122,0,255,0.7)_100%)]"
-    >
- 
-      <Image
-        src={Logo}
-        alt="Logo"
-        width={200}
-        height={200}
-        className="mb-4"
-      />
+    <footer className="py-10 px-4">
+      <div
+        className="         
+          max-w-6xl
+          mx-auto
+          px-8    
+          py-10
+          bg-[#20202F]
+          rounded-2xl
+          flex
+          flex-col
+          items-center
+          text-center
+          gap-6
+          /* Desktop */
+          md:flex-row
+          md:text-left
+          md:justify-between
+          md:gap-2
+        "
+      >
+        <div className="flex-shrink-0">
+          <Image
+            src={Rock}
+            alt="Logo da Rockstar"
 
+            className="w-10 md:w-10 h-auto"
+          />
+        </div>
 
-  <h3 className="text-center text-lg md:text-2xl font-bold mb-2 
-    bg-gradient-to-r from-[#FFD27B] via-[#DF3A93] to-[#5C1663] 
-    text-transparent bg-clip-text">
-  Disponível em 19 de novembro de 2026
-</h3>
-
-<span className="text-white mb-6 cursor-pointer hover:text-pink-500 transition">
-  Adicionar à sua lista de desejos
-</span>
-
+        
+          <h4 className=" text-white text-lg font-bold mb-2 ">
+            RECEBER ANÚNCIOS DA ROCKSTAR
+          </h4>
+          <p className="text-sm text-gray-300 max-w-lg">
+            Receba anúncios de jogos mais recentes, notícias
+            sobre eventos especiais, promoções e muito mais
+            da Rockstar Games.
+          </p>
+        </div>
 
       
-      <div className="flex gap-4 md:gap-8">
-        <Image
-          src={Ps}
-          alt="PlayStation"
-          width={100}
-          height={100}
-          className="hover:scale-105 transition-transform"
-        />
-        <Image
-          src={Xbox}
-          alt="Xbox"
-          width={100}
-          height={100}
-          className="hover:scale-105 transition-transform"
-        />
-      </div>
-    </div>
+    </footer>
   );
 };
 
-export default Announcements;
+export default Announcement;

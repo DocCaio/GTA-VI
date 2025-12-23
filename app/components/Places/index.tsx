@@ -38,7 +38,7 @@ const Places = () => {
               className="
                 absolute bottom-6 left-1/2 -translate-x-1/2
                 bg-white text-black
-                px-8 py-3 rounded-full
+                px-8 py-3 rounded-[10px]
                 text-sm font-bold uppercase tracking-wider
                 shadow-xl
                 transition-all
