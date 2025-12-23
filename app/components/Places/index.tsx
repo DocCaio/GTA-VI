@@ -24,13 +24,13 @@ const Places = () => {
             <Image
               src={place.image}
               alt={place.atl || "Place image"}
-              
+
               width={800}
               height={1200}
-                           className="w-full h-auto object-contain transition-transform duration-500 group-hover:scale-105"
+              className="w-full h-auto object-contain transition-transform duration-500 group-hover:scale-105"
             />
 
-            
+
             <div className="absolute inset-0 bg-black/5 group-hover:bg-black/20 transition-colors" />
 
             <Link

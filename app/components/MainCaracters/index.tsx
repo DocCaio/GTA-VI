@@ -5,8 +5,7 @@ import { Personagem } from "@/app/types/cards";
 const MainCaracters = () => {
   return (
     <section
-      className="
-        bg-[linear-gradient(135deg,_#0a0f2e_0%,_rgba(122,0,255,0.7)_100%)]
+      className="             
         w-full
         px-4
         py-12
