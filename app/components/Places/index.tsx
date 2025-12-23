@@ -5,23 +5,55 @@ import { Lugares } from "@/app/types/places";
 
 const Places = () => {
   return (
-    <div>
-      {dados.places.map((place: Lugares) => (
+    <section className="w-full py-10">
+      <div className="
+      
+        flex flex-col gap-6 px-4 
+        
+        
+        md:grid md:grid-cols-3 
+        md:gap-3                
+        md:max-w-[1440px]       
+        md:mx-auto              
+      ">
+        {dados.places.map((place: Lugares) => (
+          <div
+            key={place.id}
+            className="relative group overflow-hidden rounded-xl"
+          >
+            <Image
+              src={place.image}
+              alt={place.atl || "Place image"}
+              
+              width={800}
+              height={1200}
+                           className="w-full h-auto object-contain transition-transform duration-500 group-hover:scale-105"
+            />
 
-        <div key={place.id}>
-          <Image
-            src={place.image}
-            alt={place.atl || "Place image"}
-            width={300}
-            height={300}
-          />
+            
+            <div className="absolute inset-0 bg-black/5 group-hover:bg-black/20 transition-colors" />
 
-          <Link href={place.link}>
-            {place.nome}
-          </Link>
-        </div>
-      ))}
-    </div>
+            <Link
+              href={place.nome}
+              className="
+                absolute bottom-6 left-1/2 -translate-x-1/2
+                bg-white text-black
+                px-8 py-3 rounded-full
+                text-sm font-bold uppercase tracking-wider
+                shadow-xl
+                transition-all
+                hover:bg-gray-100
+                active:scale-95
+                whitespace-nowrap
+                z-10
+              "
+            >
+              {place.link}
+            </Link>
+          </div>
+        ))}
+      </div>
+    </section>
   );
 };
 

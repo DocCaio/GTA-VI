@@ -3,6 +3,7 @@ import GameDescription from "@/app/components/GameDescription";
 import MainCaracters from "@/app/components/MainCaracters";
 import NavBar from "@/app/components/NavBar";
 import OtherCaracters from "@/app/components/OtherCaracters";
+import Places from "@/app/components/Places";
 
 
 const HomePage = () => {
@@ -13,6 +14,7 @@ const HomePage = () => {
         <GameDescription/>
         <MainCaracters/>
         <OtherCaracters/>
+        <Places/>
 
     </div>
   )
