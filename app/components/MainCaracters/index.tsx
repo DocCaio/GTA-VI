@@ -12,7 +12,7 @@ const MainCaracters = () => {
         py-12
       "
     >
-      <div className="max-w-6xl mx-auto"> {/* Container para centralizar o conteúdo no desktop */}
+      <div className="max-w-6xl mx-auto"> 
         <span className="text-white block mb-2">
           Quem são Jason e Lucia?
         </span>
@@ -21,7 +21,7 @@ const MainCaracters = () => {
           Conheça nossos protagonistas
         </h2>
 
-        {/* Container Flexível: Coluna no mobile, Linha no Desktop */}
+       
         <div className="flex flex-col lg:flex-row gap-8 justify-center items-start">
           {dados.personagens.map((personagem: Personagem) => (
             <div
@@ -31,7 +31,7 @@ const MainCaracters = () => {
               <Image
                 src={personagem.image}
                 alt={personagem.nome}
-                width={300} // Aumentei um pouco para preencher melhor o espaço
+                width={300} 
                 height={300}
                 className="mb-6 rounded-lg object-cover"
               />
