@@ -38,8 +38,8 @@ const Plataforns = () => {
           <Image
             src={Ps}
             alt="PlayStation"
-            width={100}
-            height={100}
+            width={120}
+            height={120}
             className="hover:scale-105 transition-transform"
           />
         </Link>
@@ -48,8 +48,8 @@ const Plataforns = () => {
           <Image
             src={Xbox}
             alt="Xbox"
-            width={100}
-            height={100}
+            width={150}
+            height={150}
             className="hover:scale-105 transition-transform"
           />
         </Link>

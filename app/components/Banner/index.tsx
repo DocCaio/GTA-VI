@@ -1,17 +1,27 @@
-import "./Banner.css";
 import Image from "next/image";
-import Play from "../../../assets/NavBar/play.png";
-import Circle from "../../../assets/NavBar/circle.png";
 
 const Banner = () => {
   return (
-    <div className="banner">
-           <Image src={Play} alt="Logo letra 1" width={45} height={30} />
-            <Image src={Circle} alt="Logo letra 2" width={18} height={10} />
+    <div className="banner relative w-[200px] h-[200px]">
+      
+    
+      <Image
+        src="/Banner/Circle.png"
+        alt="Circle"
+        width={200}
+        height={200}
+      />
 
+      <Image
+        src="/Banner/Play.png"
+        alt="Play"
+        width={100}
+        height={100}
+        className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 cursor-pointer"
+      />
 
     </div>
-  )
-}
+  );
+};
 
 export default Banner;
