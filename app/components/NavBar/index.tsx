@@ -16,7 +16,6 @@ const NavBar = () => {
       style={{ backgroundColor: "#74B0C8" }}
       className="w-full h-24 flex items-center justify-around text-white relative px-4"
     >
-      {/* LOGO */}
       <div className="flex items-center gap-1">
         <Link href="/" className="flex">
           <Image src={Cinco} alt="Logo letra 1" width={45} height={30} />
@@ -24,7 +23,6 @@ const NavBar = () => {
         </Link>
       </div>
 
-      {/* BOTÃO MENU MOBILE */}
       <button
         className="md:hidden text-white z-50"
         onClick={() => setIsOpen(!isOpen)}
@@ -33,7 +31,7 @@ const NavBar = () => {
         {isOpen ? <X size={30} /> : <Menu size={30} />}
       </button>
 
-      {/* MENU */}
+      
       <nav
         className={`
           absolute md:static top-24 left-0 w-full md:w-auto
