@@ -62,10 +62,20 @@ yarn dev
 Acesse em: http://localhost:3000
 ```
 
+## 🎨 [Figma](https://www.figma.com/design/UQwRXwFQfGzUGwleEoSewK/Design-app-academia?node-id=0-1&t=J2QegGperbHndRBT-1)
+
 
 ## 📸 Preview
 
 Adicionar imagens ou gifs do projeto aqui.
+
+⭐ Crédito
+
+  👨‍💻 **Caio**  Front-end [Linkedin](https://www.linkedin.com/in/caio-martins-2ba009207/)
+
+  🎨 **Braian** UX/Design [linkedin](https://www.linkedin.com/in/braian-roger/)
+
+
 
 ## 📄 Licença
 
