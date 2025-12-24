@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚗 GTA VI – Projeto Web
 
-## Getting Started
+Projeto web inspirado no GTA VI, desenvolvido com Next.js, focado em performance, design moderno e boa experiência do usuário.
 
-First, run the development server:
+📌 Sobre o Projeto
+
+Este projeto tem como objetivo apresentar um site conceitual sobre o jogo GTA VI, explorando informações, visual e identidade inspirados no game. O layout foi planejado no Figma e implementado com tecnologias modernas do ecossistema React.
+
+## 🛠️ Tecnologias Utilizadas
+
+Next.js – Framework React para aplicações web modernas
+
+React – Biblioteca para construção da interface
+
+TypeScript – Superset do JavaScript que adiciona tipagem estática ao projeto
+
+Tailwind CSS – Estilização rápida e responsiva com classes utilitárias
+
+Lucide React – Biblioteca de ícones leves e personalizáveis
+
+Figma – Criação do design e prototipação da interface
+
+## 🎨 Design
+
+Todo o design da aplicação foi criado no Figma, priorizando:
+
+Interface moderna
+
+Boa hierarquia visual
+
+Responsividade
+
+Experiência do usuário (UI/UX)
+
+## 🚀 Funcionalidades
+
+Layout responsivo
+
+Componentes reutilizáveis
+
+Ícones modernos com Lucide React
+
+Estilização otimizada com Tailwind CSS
+
+## 📂 Como Rodar o Projeto
 
 ```bash
-npm run dev
-# or
+# Clone o repositório
+git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/NucleoDevCodes/GTA-VI)
+
+# Entre na pasta do projeto
+cd seu-repositorio
+
+# Instale as dependências
+yarn install
+
+# Rode o servidor de desenvolvimento
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+```
+```
+Acesse em: http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📸 Preview
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Adicionar imagens ou gifs do projeto aqui.
 
-## Learn More
+## 📄 Licença
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Este projeto é apenas para fins educacionais e de estudo, sem fins comerciais.
+GTA é uma marca registrada da Rockstar Games.
