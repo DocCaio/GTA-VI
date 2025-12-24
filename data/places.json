@@ -1,0 +1,46 @@
+{
+    "places": [
+        {
+            "id": 1,
+            "image": "/Places/vice.png",
+            "nome": "Vice City",
+            "atl": "Vice City",
+            "link": "Explore Vice City"
+        },
+        {
+            "id": 2,
+            "image": "/Places/leonida.png",
+            "nome": "Leonida Keys",
+            "atl": "Leonida Keys",
+            "link": "Explore Leonida Keys"
+        },
+        {
+            "id": 3,
+            "image": "/Places/grassrivers.png",
+            "nome": "Gellhorn",
+            "atl": "Gellhorn",
+            "link": "Explore Grassrivers"
+        },
+        {
+            "id": 4,
+            "image": "/Places/port.png",
+            "nome": "Gellhorn",
+            "atl": "Gellhorn",
+            "link": "Explore Gellhorn"
+        },
+        {
+            "id": 5,
+            "image": "/Places/ambrosia.png",
+            "nome": "Ambrosia",
+            "atl": "Ambrosia",
+            "link": "Explore Ambrosia"
+        },
+        {
+            "id": 6,
+            "image": "/Places/mount.png",
+            "nome": "Mount Kalaga",
+            "atl": "Mount Kalaga",
+            "link": "Explore Mount Kalaga"
+        }
+    ]
+}
